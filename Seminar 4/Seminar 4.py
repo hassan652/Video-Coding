@@ -44,7 +44,7 @@ for n in range(25):
     Cr = ycbcr[:, :, 2]
 
     # Start pixel for block wise motion estimation:
-    block = np.array([8, 8])
+    block = [8, 8]
 
     # Vectors for current frame as graphic:
     framevectors = np.zeros((r_cropped, col_cropped, 3))
